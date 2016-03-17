@@ -1,3 +1,8 @@
 <resources>
+
     <string name="app_name">QuoteGenerator</string>
+
+    <string name="main_activity_header_text_view_text">The awesome quote generator!</string>
+    <string name="main_activity__fetch_quote_button_text">Fetch a quote</string>
+
 </resources>
