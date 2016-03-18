@@ -2,7 +2,9 @@
 
     <string name="app_name">QuoteGenerator</string>
 
-    <string name="main_activity_header_text_view_text">The awesome quote generator!</string>
-    <string name="main_activity__fetch_quote_button_text">Fetch a quote</string>
+    <string name="quote_text">quote</string>
+    <string name="quote_button">Generate</string>
+    <string name="author_text">author</string>
+    <string name="quote_fail">Please try again later</string>
 
 </resources>
