@@ -8,6 +8,7 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     android:gravity="center"
+    android:background="@color/colorPrimary"
     android:orientation="vertical"
     tools:context=".activities.MainActivity">
 
@@ -15,12 +16,15 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/quote_text"
+        android:textColor="#fff"
         tools:text="@string/quote_text"
         android:layout_margin="10dp"
-        android:textSize="20sp" />
+        android:textSize="40sp"
+        />
     <TextView
         android:layout_marginBottom="20dp"
-        android:layout_marginTop="10dp"
+        android:layout_marginTop="20dp"
+        android:textColor="#fff"
         android:id="@+id/author_text"
         android:layout_width="wrap_content"
         tools:text="@string/author_text"

@@ -66,7 +66,7 @@ public class MainActivity extends AppCompatActivity {
                 quoteTextView.setGravity(Gravity.CENTER);
                 authorTextView.setGravity(Gravity.CENTER);
 
-                quoteTextView.setText(quoteText);
+                quoteTextView.setText("\""+quoteText+"\"");
                 authorTextView.setText(authorText);
             }
             @Override
